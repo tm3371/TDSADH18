@@ -17,8 +17,8 @@ applied generally to all displayed text (unless overridden by a more specific ta
 */
 html {
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  background-color:  #33FFBD;
+  font-family: 'times', serif;
+  background-color:  #FFFFFF;
 }
 
 /*
@@ -29,8 +29,9 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;  
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+  color: #000000;
+  /*text-shadow: 3px 3px 1px black;
+ */
 }
 
 /*
@@ -46,14 +47,14 @@ p, li {
 The formatting for the body specifies the width withing the page that the content will appear, sets the background to a shade of lavendar 
 (overridding the HTML light green), and creates a blue border (in addition to creating "padding" or blank space at the edges).
 */
-body {
+/* body {
   width: 800px;
   margin: 0 auto;
   background-color:#f7dcea;
   padding: 0 20px 20px 20px;
   border: 5px solid blue;
 }
-
+/*
 /*
 Images will be formatted as "blocks" (as opposed to in-line), with rounded corners and no margin between the image and nearby text.
 */
